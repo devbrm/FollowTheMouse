@@ -41,8 +41,11 @@ const changeColor = debounce( () => {
 
 let arr = new Array(12).fill(255)
 const emoji = document.querySelector(".emoji")
-window.addEventListener("mousemove", changeColor )
-window.addEventListener("mousemove", animate )
+const container = document.querySelector(".container")
+container.addEventListener("mousemove", animate )
+container.addEventListener("touchmove", animate )
+container.addEventListener("touchstart", animate )
 
-window.addEventListener("touchmove", changeColor )
-window.addEventListener("touchmove", animate )
+container.addEventListener("mousemove", changeColor )
+container.addEventListener("touchmove", changeColor )
+container.addEventListener("touchstart", changeColor )
