@@ -6,10 +6,9 @@
 }
 
 body {
-  background: #111;
   color: #fff;
-  overflow: hidden;
   font-family: "raleway";
+  touch-action: manipulation;
 }
 
 .container {
@@ -18,16 +17,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: row ;
+  flex-flow: column wrap;
+  background: linear-gradient(0deg, rgb(14, 14, 14), rgb(9, 0, 39));
+  overflow: hidden;
 }
 
 .emoji {
-  font-size: 8rem;
+  font-size: 6rem;
   padding: 1rem 3rem;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
-.text{
 
-  font-size: 6rem;
+.text{
+  color: rgba(255, 166, 0, 0.883);
+  font-size: 3rem;
 }

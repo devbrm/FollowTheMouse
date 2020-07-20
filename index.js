@@ -43,3 +43,6 @@ let arr = new Array(12).fill(255)
 const emoji = document.querySelector(".emoji")
 window.addEventListener("mousemove", changeColor )
 window.addEventListener("mousemove", animate )
+
+window.addEventListener("touchmove", changeColor )
+window.addEventListener("touchmove", animate )
