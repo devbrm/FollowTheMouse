@@ -1,0 +1,33 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #111;
+  color: #fff;
+  overflow: hidden;
+  font-family: "raleway";
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row ;
+}
+
+.emoji {
+  font-size: 8rem;
+  padding: 1rem 3rem;
+  text-align: center;
+}
+
+.text{
+
+  font-size: 6rem;
+}
